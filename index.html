@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home Admire</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="Author" content="">
+    <meta name="copyright" content="">
+    <meta name="google-site-verification" content="">
+    <link rel="icon" type="image/x-icon" href="./assets//images/logo.png" />
+
+    <!-- =========================================== CSS ================================================ -->
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/about.css">
+    <link rel="stylesheet" type="text/css" href="./styles/mvg.css">
+    <link rel="stylesheet" type="text/css" href="./styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/openSans.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/montserrat.css">
+
+    <!-- =========================================== JS ================================================= -->
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/bootstrap.bundle.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/popper.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="restricted-view">
+        <div class="modal navbar-modal" id="nav-modal">
+            <div class="close-container" onclick="closeModal()">
+                <img src="./assets/images/close.png" class="close-img" alt="close" />
+            </div>
+
+            <div class="mobile-navbar-list">
+                <div class="mobile-nav-item">
+                    <a class="mobile-nav-link" href="#">Home</a>
+                </div>
+                <div class="mobile-nav-item">
+                    <a class="mobile-nav-link" href="#about">About</a>
+                </div>
+                <div class="mobile-nav-item">
+                    <a class="mobile-nav-link" href="#">Services</a>
+                </div>
+                <div class="mobile-nav-item">
+                    <a class="mobile-nav-link" href="#">Gallery</a>
+                </div>
+                <div class="mobile-nav-item">
+                    <a class="mobile-nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-view">
+            <img src="./assets/images/home-background.jpeg" class="home-image" />
+            <nav class="navbar navbar-expand-md navbar-style">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/logo.png" class="logo-image" alt="logo" />
+                    </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="d-flex ms-auto navbar-list">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar-toggler" id="mobile-nav" onclick="openModal()">
+                        <img src="./assets/images/menu.png" class="menu-image" alt="menu" />
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="about-view" id="about">
+            <div class="about-head">ABOUT US</div>
+            <div class="about-inner-view">
+                <div class="about-image-view">
+                    <img src="./assets/images/about.jpeg" class="about-image" alt="about" />
+                </div>
+                <div class="about-desc-view">
+                    <div class="about-desc">
+                        At Home-Designing, we document inspiration. Our aim is to bring to our readers a steady set of
+                        resources that would help them visualize, create and maintain beautiful homes. Our emphasis is
+                        on
+                        visuals that motivate you. We cover architectural innovations, cool homes, ideas for specific
+                        rooms,
+                        new design trends, products and occasionally decor tips. We hope to become your one stop source
+                        for
+                        home design inspiration!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mission-vision-goals">
+            <div class="mvg-item" style="margin-right: 100px;">
+                <div class="mvg-image-container">
+                    <img src="./assets/images/vision.png" class="mvg-image" alt="vision" />
+                </div>
+                <div class="mvg-head">Our Vision</div>
+                <div class="mvg-desc">
+                    Our vision is to be a reputable, sustainable, and desirable premier luxurious interior design firm
+                    of the global marketplace providing state-of-the-art innovative designs and superior quality
+                    finishing. We will continue to leverage on our many years of professional experience to consistently
+                    deliver exclusive design services that bring a complete satisfaction of our partners and clients
+                    requirements.
+                </div>
+            </div>
+            <div class="mvg-item">
+                <div class="mvg-image-container">
+                    <img src="./assets/images/mission.png" class="mvg-image" alt="mission" />
+                </div>
+                <div class="mvg-head">Our Mission</div>
+                <div class="mvg-desc">
+                    Our mission is to create reward experience and value that combine functionality with high quality
+                    and innovation for our customers. We want every partner and client experience to be the talk of a
+                    lifetime. Also, to define the most sophisticated and superior standard of quality in every exterior
+                    and interior design.
+                </div>
+            </div>
+
+            <div class="mvg-item goals-item">
+                <div class="mvg-image-container">
+                    <img src="./assets/images/goals.png" class="mvg-image" alt="mission" />
+                </div>
+                <div class="mvg-head">Goals</div>
+                <div class="mvg-desc">
+                    Exclusive design and feel of our classic custom interior designs.
+                    <ul>
+                        <li>Create well-designed exteriors and interiors that are built with superior quality materials
+                            to last a long time.</li>
+                        <li>Create master -piece and incorporate unique features that the client cannot get from the
+                            competition. Our creativity and seamless service lead, that is why we don‘t compete on the
+                            market in price.</li>
+                        <li>Honest and transparent processes from start to finish.</li>
+                        <li> Committed to providing the best of the best of designs.</li>
+                        <li>Viewed as a high profile reputable corporation.</li>
+                        <li>We deliver our promise</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -16,6 +16,10 @@
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <link rel="stylesheet" type="text/css" href="./styles/about.css">
     <link rel="stylesheet" type="text/css" href="./styles/mvg.css">
+    <link rel="stylesheet" type="text/css" href="./styles/services.css">
+    <link rel="stylesheet" type="text/css" href="./styles/gallery.css">
+    <link rel="stylesheet" type="text/css" href="./styles/testimonial.css">
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css">
     <link rel="stylesheet" type="text/css" href="./styles/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./assets/fonts/openSans.css">
     <link rel="stylesheet" type="text/css" href="./assets/fonts/montserrat.css">
@@ -23,13 +27,13 @@
     <!-- =========================================== JS ================================================= -->
     <script src="./scripts/modal.js"></script>
     <script src="./scripts/bootstrap.bundle.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="./scripts/popper.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="./scripts/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 </head>
 
@@ -48,13 +52,13 @@
                     <a class="mobile-nav-link" href="#about">About</a>
                 </div>
                 <div class="mobile-nav-item">
-                    <a class="mobile-nav-link" href="#">Services</a>
+                    <a class="mobile-nav-link" href="#services">Services</a>
                 </div>
                 <div class="mobile-nav-item">
                     <a class="mobile-nav-link" href="#">Gallery</a>
                 </div>
                 <div class="mobile-nav-item">
-                    <a class="mobile-nav-link" href="#">Contact</a>
+                    <a class="mobile-nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -75,13 +79,13 @@
                                 <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -116,7 +120,7 @@
         </div>
 
         <div class="mission-vision-goals">
-            <div class="mvg-item" style="margin-right: 100px;">
+            <div class="mvg-item" style="margin-right: 50px;">
                 <div class="mvg-image-container">
                     <img src="./assets/images/vision.png" class="mvg-image" alt="vision" />
                 </div>
@@ -162,6 +166,116 @@
                     </ul>
                 </div>
             </div>
+        </div>
+
+        <div class="services-wrapper" id="services">
+            <div class="about-head">SERVICES</div>
+
+            <div class="service-head">Home Interiors</div>
+            <div class="service-view">
+                <div class="service-item">Modular kitchen</div>
+                <div class="service-item">Wardrobe & Loft</div>
+                <div class="service-item">Pooja & Crockery Unit</div>
+                <div class="service-item">Tv Unit</div>
+                <div class="service-item">Living room Interior</div>
+                <div class="service-item">Bedroom Interior</div>
+                <div class="service-item">Bathroom Interior</div>
+                <div class="service-item">Foyer Decor</div>
+                <div class="service-item">False Ceiling</div>
+                <div class="service-item">Wallpaper</div>
+                <div class="service-item">Indoor Space Planning</div>
+                <div class="service-item">Home Painting Services</div>
+            </div>
+
+            <div class="service-head">Commercial Interiors</div>
+            <div class="service-view">
+                <div class="service-item">Office Interior</div>
+                <div class="service-item">Gym Interiors</div>
+                <div class="service-item">Coffee shop Interior</div>
+            </div>
+
+            <div class="service-head">Floor plan</div>
+            <div class="service-view">
+                <div class="service-item">2D Residential Floor Plan</div>
+            </div>
+
+            <div class="service-head">Exterior</div>
+            <div class="service-view">
+                <div class="service-item">Residential Elevation</div>
+                <div class="service-item">Commercial Elevation</div>
+            </div>
+        </div>
+
+        <div class="gallery-view">
+            <div class="about-head">GALLERY</div>
+
+        </div>
+
+        <div class="testimonial-view">
+            <div class="about-head">TESTIMONIAL</div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-item">1</div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item">2</div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item">3</div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="footer-view" id="contact">
+            <div class="">
+                <div class="footer-details"><b>Address :</b> BS1, Manthoppu 1st street,</div>
+                <div class="footer-details address-line">Maduvinkari, Guindy-600032.</div>
+                <div class="footer-details"><b>Mail ID :</b> hello@homeadmire.in</div>
+                <div class="footer-details"><b>Phone :</b> 9994708928</div>
+            </div>
+            <div class="social-links">
+                <div class="social-item">
+                    <img src="./assets/images/insta.png" class="social-image" alt="insta" />
+                </div>
+                <div class="social-item">
+                    <img src="./assets/images/facebook.png" class="social-image" alt="facebook" />
+                </div>
+                <div class="social-item">
+                    <img src="./assets/images/linkedin.png" class="social-image" alt="linkedin" />
+                </div>
+                <div class="social-item">
+                    <img src="./assets/images/twitter.png" class="social-image" alt="twitter" />
+                </div>
+                <div class="social-item">
+                    <img src="./assets/images/youtube.png" class="social-image" alt="youtube" />
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <img src="./assets/images/copyright.png" class="copyright-image" alt="copyright"/>
+            Home Admire. All rights reserved
         </div>
     </div>
 </body>

@@ -29,6 +29,7 @@
     <script src="./scripts/bootstrap.bundle.js"></script>
     <script src="./scripts/popper.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
+    <script src="./scripts/home-back.js"></script>
 </head>
 
 <body>
@@ -58,7 +59,7 @@
         </div>
 
         <div class="home-view">
-            <img src="./assets/images/home-background.jpeg" class="home-image" />
+            <img src="./assets/images/home/image1.png" id="home-image" class="home-image" />
             <nav class="navbar navbar-expand-md navbar-style">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -268,7 +269,7 @@
                 <div class="footer-details"><b>Phone :</b> 9994708928</div>
             </div>
             <div class="social-links">
-                <div class="social-item">
+                <div class="social-item" onclick="openSocialLinks('instagram')">
                     <img src="./assets/images/insta.png" class="social-image" alt="insta" />
                 </div>
                 <div class="social-item">
@@ -280,7 +281,7 @@
                 <div class="social-item">
                     <img src="./assets/images/twitter.png" class="social-image" alt="twitter" />
                 </div>
-                <div class="social-item">
+                <div class="social-item" onclick="openSocialLinks('youtube')">
                     <img src="./assets/images/youtube.png" class="social-image" alt="youtube" />
                 </div>
             </div>

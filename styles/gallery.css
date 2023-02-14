@@ -17,6 +17,9 @@
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   
   .gallery-column img {

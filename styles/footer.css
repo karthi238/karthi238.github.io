@@ -1,7 +1,7 @@
 .footer-view{
     width: 100%;
     background-color:rgb(102, 100, 100);
-    padding: 30px 100px;
+    padding: 30px 70px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -44,10 +44,32 @@
     font-size: 15px;
     display: flex;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 70px;
 }
 .copyright-image{
     width: 20px;
     height: 20px;
     margin-right: 3px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-view {
+       padding: 30px 40px;
+    }
+    .copyrights{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-view {
+       flex-direction: column;
+    }
+    .social-links {
+        margin-top: 40px;
+    }
+    .social-item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
